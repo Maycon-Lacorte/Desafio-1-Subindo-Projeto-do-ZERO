@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+
+}
+
+header {
+    margin: 32px 0 0 42px;
+
+}
+
+
+.link-header {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: .88px;
+    text-align: center;
+    margin-right: 32px;
+    color: #17233D;
+    cursor: pointer;
+
+}
+
+button {
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    width: 124px;
+    height: 51px;
+    cursor: pointer;
+}
+
+img {
+    width: 595.18px;
+    height: 500px;
+    margin: 136px 0 0 121px;
+}
+
+.section1 {
+
+    display: inline-block;
+    width: 50%;
+
+}
+
+.section2 {
+
+    display: inline-block;
+    margin-left: 84.82px;
+    width: 44%;
+
+}
+
+h1 {
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: .6px;
+    color: #161A49;
+    width: 582px;
+    height: 164px;
+
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: .5px;
+    color: #4B505A;
+    width: 493px;
+    height: 99px;
+    margin-top: 47px;
+    margin-bottom: 55px;
+
+}
+
+.link-section2 {
+    font-size: 18px;
+    font-weight: 500px;
+    line-height: 100%;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    cursor: pointer;
+
+}
+
+a:hover {
+    color: #4CB538;
+}
+
+button:hover {
+    background-color: #4CB538;
+}
+
+a:active {
+    color: #cc1d02;
+}
+
+button:active {
+    color: #cc1d02;
+
+}
+
+@media screen and (max-width: 1150px) {
+
+    .link-header {
+        display: none;
+    }
+
+    .section1 {
+        display: contents;
+        
+    }
+
+    .section2 {
+        display: contents;
+        
+    }
+
+    
+    header {
+        text-align: right;
+    }
+ 
+    button {
+        margin: 17px 15px 76px 0;
+        width: 91px;
+        height: 31px;
+    }
+
+    h1 {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: .6px;
+        color: #161A49;
+        width: auto;
+        height: auto;
+        text-align: center;
+
+    }
+
+    p {
+        width: auto;
+        height: auto;
+        margin: 29px 43px 26px 43px;
+        text-align: center;
+
+    }
+
+    img {
+        width: 60%; height: auto;
+        margin: 0 auto; /* Para alinhar tem uma dica, um macete: colocar auto no margin right e left. Mas ele só faz isso quando o display for block. */
+        display: block;
+        position: absolute;
+        top: 68%;
+        left: 20%;
+        right: 20%;
+
+    }
+
+    .link-section2 {
+        text-align: center;
+        display: block;
+
+    }
+
+}
+
+/* .wrapper { display: flex; justify-content: flex-end; } */
